@@ -1,0 +1,13 @@
+#lrc{
+    width: 200px;
+    background-color: bisque;
+}
+
+li{
+    text-align: center;
+    height: 50px;
+}
+
+li{
+    list-style: none;
+}

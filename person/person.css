@@ -1,0 +1,48 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigate{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 90vh;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigate div{
+height: 2.2rem;
+
+}
+
+.navigate div:nth-child(1){
+    background-image: url(images/Flame.png);
+    background-size: cover;
+    width: 2rem;
+}
+
+.navigate div:nth-child(2){
+    background-image: url(images/Library.png);
+    background-size: cover;
+    width: 2.2rem;
+}
+
+.navigate div:nth-child(3){
+    background-image: url(images/Account.png);
+    background-size: cover;
+    width: 2.2rem;
+}

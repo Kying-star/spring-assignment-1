@@ -1,0 +1,143 @@
+
+html,body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+.enroll_head>p{
+    width: 33vh;
+    height: 4vh;
+    text-align: right;
+    color: crimson;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+#container{
+    height: 100vh;    
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.enroll_head{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enroll_forgot{
+    text-align: center;
+    cursor: pointer;
+    color:#758692;
+    font-family: 'VarelaRound-Regular';
+}
+
+
+input{
+    cursor: text;
+    width: 60vw;
+    height: 5vh;
+    background-color:rgba(247,248,250,1);
+    border-radius:25px;
+    border: black 0px solid;
+    text-align: center;
+    color: black;
+    
+}
+
+button{
+    width: 50vw;
+    height: 7vh;
+    font-size: 1.5rem;
+    background-color:#E70202;
+    border-radius:25px;
+    border: solid 0;
+    margin-top: 2vh;
+    color: blanchedalmond;
+    font-family: "BalooBhai-Regular";
+    cursor: pointer;
+}
+
+button::after {
+	box-shadow: 0 0 10px 10px rgba(0, 255, 0, 0.8);
+}
+
+.enroll_img{
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+    width: 100px;
+    height: 100px;
+    background-image: url(images/wycloud.png);
+}
+
+.other_enroll{
+    width: 100%;
+    height: 30vh;
+    background-color: #F7F8FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.other_enroll>p{
+    font-family: 'VarelaRound-Regular';
+    color: #758692;
+}
+
+.enroll_way:nth-child(2){
+    width: 72vw;
+    height: 7vh;
+    border-radius: 25px;
+    background-color: #3245B8;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.enroll_way:nth-child(3){
+    width: 72vw;
+    height: 7vh;
+    border-radius: 25px;
+    background-color: #0091EA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.faceimg{
+    width: 20px;
+    height: 30px;  
+    background-image: url(images/facebook.jpg);
+    background-size: cover;
+}
+
+.gggimg{
+    width: 40px;
+    height: 30px;
+    background-image: url(images/ggg.jpg);
+    background-size: cover;
+}
+
+.enroll_way p{
+    
+    height: 3vh;
+font-family:'Baloo Bhai';
+font-weight:400;
+color:rgba(255,255,255,1);
+}

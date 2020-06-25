@@ -1,0 +1,95 @@
+.container{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.homeHeader{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D4DCE1;
+    background-color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    z-index: 1;
+}
+
+.container_header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.musiclist{
+    width: 100vw;
+
+    /* background-image: linear-gradient(#30cfd0,#330867); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.musiclist div{
+    height: 20vh;
+    width: 90vw;
+    border: violet 2px solid;
+    margin: 1vmin;
+}
+
+
+
+
+
+
+
+.navigate{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 90vh;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigate div{
+height: 2.2rem;
+
+}
+
+.navigate div:nth-child(1){
+    background-image: url(images/Flame.png);
+    background-size: cover;
+    width: 2rem;
+}
+
+.navigate div:nth-child(2){
+    background-image: url(images/Library.png);
+    background-size: cover;
+    width: 2.2rem;
+}
+
+.navigate div:nth-child(3){
+    background-image: url(images/Account.png);
+    background-size: cover;
+    width: 2.2rem;
+}

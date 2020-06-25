@@ -1,0 +1,218 @@
+.divimg{
+    width: 300px;
+    height: 400px;
+}
+
+
+
+.container{
+    width: 100vw;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_bk{
+    width: 100vw;
+    height: 16rem;
+    background-image: linear-gradient(#accbee,#e7f0fd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    width: 12rem;
+    height: 16rem;
+    border-radius: 34px;
+    justify-self:center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+#list{
+    height: 16rem;
+    width: 10000rem;
+    left: 0px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#list>img{
+    width: 12rem;
+    height: 100%;
+    display: block;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.homeHeader{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D4DCE1;
+    background-color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    z-index: 1;
+}
+
+
+
+.homeHeader_bk{
+    width: 100vw;
+    height: 10vh;
+}
+
+p{
+       font-family: 'BalooBhai-Regular';
+    font-weight: 900; 
+}
+
+.New_Albums{
+    width: 90vw;
+
+
+}
+
+.search{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    margin-left: 42vw;
+    background-image: url(images/Search.png);
+    background-size: cover;
+    float: right;
+}
+
+.Album_name{
+    width: 70vw;
+    top: 19rem;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.play{
+    width: 3rem;
+    height: 3rem;
+    background-image: url(images/Play.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.show_album{
+    width: 100vw;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show_album_top{
+    width: 90vw;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show_album_top a{
+    color: #0091EA;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.music_show{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.music_show div{
+    height: 14rem;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.music_show div>img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.music_show p:nth-child(2){
+    width: 11rem;
+    font-size: 16px;
+    font-weight: 900;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+
+}
+
+.music_show p:nth-child(3){
+    width:11rem;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: left;
+    color: #0091EA;
+}
+
+
+
+
+
+.navigate{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: -6px;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigate div{
+height: 2.2rem;
+
+}
+
+.navigate div:nth-child(1){
+    background-image: url(images/Flame.png);
+    background-size: cover;
+    width: 2rem;
+}
+
+.navigate div:nth-child(2){
+    background-image: url(images/Library.png);
+    background-size: cover;
+    width: 2.2rem;
+}
+
+.navigate div:nth-child(3){
+    background-image: url(images/Account.png);
+    background-size: cover;
+    width: 2.2rem;
+}
